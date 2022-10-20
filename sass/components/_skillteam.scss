@@ -1,0 +1,44 @@
+.skill {
+    padding: 94px 0px 47px 0px;
+ }
+ 
+
+.skill__list {
+    display: flex;
+}
+                                                   
+.skill__title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $title-color;
+}
+
+.skill__paragraph {
+    font-size: 14px;
+    line-height: 1.71;
+    color: $link-color;
+}
+
+.skill__item:not(:last-child) {
+    max-width: 270px;
+    margin-right: 30px;
+}
+
+.skill__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    
+    border: 1px solid transparent;
+    border-radius: 4px;   
+    background-color: $team-bg-color;
+    fill: currentColor;
+}
+

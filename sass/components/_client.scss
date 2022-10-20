@@ -1,0 +1,42 @@
+.client {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.client__title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: $title-color;
+}
+
+.client__list {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.client__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid $client-svg-color;
+    border-radius: 4px;
+    fill: $client-svg-color;
+    transition: fill $animation-timing-function, border-color $animation-timing-function;
+
+    &:hover,
+    &:focus {
+        fill: $link-active;
+        border-color: $link-active;
+    }
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
